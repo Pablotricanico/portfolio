@@ -1,0 +1,52 @@
+@media (max-width: 991px) {
+
+    section {
+        padding: 75px 0;
+      }
+    
+    #inicio {
+        flex-direction: column;
+      }
+    
+      .inicio_foto {
+        margin-bottom: 30px;
+        margin-right: 0;
+      }
+    
+      .inicio_titulo {
+        font-size: 45px;
+      }
+    
+      .inicio_tituloPrimario,
+      .inicio_tituloSecundario {
+        font-size: 35px;
+      }
+
+}
+
+@media (max-width: 767px) {
+
+    .inicio_bg {
+        background-image: url(./assets/bg_responsive.webp);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+      }
+
+    section {
+        padding: 60px 0;
+      }
+    
+      .inicio_foto {
+        margin-bottom: 30px;
+      }
+    
+      .inicio_titulo {
+        font-size: 30px;
+      }
+    
+      .inicio_tituloPrimario,
+      .inicio_tituloSecundario {
+        font-size: 25px;
+      }
+}
