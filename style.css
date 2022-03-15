@@ -13,6 +13,8 @@ a:hover {
   color: #bbbbbb;
 }
 
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -37,12 +39,12 @@ section {
 
 .navbar-brand::before {
   content: "<";
-  color: #cefe1a;
+  color: #56cfe1;
 }
 
 .navbar-brand::after {
   content: "/>";
-  color: #cefe1a;
+  color: #56cfe1;
 }
 
 /* ---------------------------INICIO */
@@ -80,14 +82,16 @@ section {
   filter: grayscale(1);
   transition: filter 0.3s;
 }
+
 .inicio_foto:hover {
   transition: filter 0.3s;
   filter: grayscale(0);
 }
+
 .inicio_titulo {
     font-size: 60px;
     text-shadow: 1px 1px black;
-    color: #cefe1a;
+    color: #56cfe1;
   }
   
   .inicio_tituloPrimario,
@@ -96,3 +100,79 @@ section {
     color: #f5f5f5;
     text-shadow: 1px 1px black;
   }
+
+  /* -------------------- SOBRE MI */
+  .tituloSobreMi {
+    color: #f5f5f5;
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+  
+  .tituloSobreMi:after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: #56cfe1;
+    margin: 10px auto 40px;
+  }
+  
+  .gridSobreMi {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .descripcionSobreMi {
+    text-align: center;
+    color: #8e8e8e;
+    line-height: 40px;
+  }
+  
+  
+  
+  .descripcionSobreMi span {
+    color: #f5f5f5;
+  }
+  
+  .descripcionSobreMi h2 {
+    color: #f5f5f5;
+    margin: 20px 0;
+  }
+  
+  .habilidadesSobreMi {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .titulosHabilidades {
+    color: #8e8e8e;
+    grid-column: span 3;
+    text-align: left;
+  }
+  
+  .habilidadesItem {
+    background: #191919;
+    font-size: 50px;
+    color: #8e8e8e;
+    padding: 35px;
+    transition: all 0.3s;
+    min-width: 130px;
+  }
+  
+  .habilidadesItem:hover {
+    color: #f5f5f5;
+    transition: all 0.3s;
+  }
+  
+  .habilidadesNombre {
+    font-size: 16px;
+    text-align: center;
+  }
+  .imgHabilidades{
+    height: 15vh;
+    width: 15vh;
+  }
+
+  /* ---------------------------------------HABILIDADES */
